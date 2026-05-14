@@ -108,7 +108,7 @@ npx @modelcontextprotocol/inspector python mcp_server.py
 
 ---
 
-## 📡 Transport Modes (Bonus)
+## Transport Modes (Bonus)
 
 By default, the server launches on **stdio** for local IPC. Thanks to FastMCP, running as an HTTP SSE stream is natively supported out-of-the-box by appending the command flag:
 
