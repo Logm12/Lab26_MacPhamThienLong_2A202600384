@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "sqlite-lab": {
+      "command": "C:/Python313/python.exe",
+      "args": [
+        "E:/VinAI/assignments/Day26-Track3-MCP-tool-integration/implementation/mcp_server.py"
+      ],
+      "env": {
+        "DATABASE_TYPE": "sqlite",
+        "DATABASE_PATH": "E:/VinAI/assignments/Day26-Track3-MCP-tool-integration/implementation/lab.db"
+      }
+    },
+    "postgres-lab": {
+      "command": "C:/Python313/python.exe",
+      "args": [
+        "E:/VinAI/assignments/Day26-Track3-MCP-tool-integration/implementation/mcp_server.py"
+      ],
+      "env": {
+        "DATABASE_TYPE": "postgres",
+        "DATABASE_URI": "postgresql://postgres:postgres@localhost:5432/mcp_lab"
+      }
+    }
+  }
+}

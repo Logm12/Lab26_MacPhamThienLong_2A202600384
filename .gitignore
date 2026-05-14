@@ -1,0 +1,33 @@
+# External Large Directories
+antigravity-awesome-skills/
+
+# Heavy / Node Modules
+node_modules/
+
+# Python Cached/Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases & Dumps
+*.db
+*.sqlite
+*.sql
+*.dump
+*.log
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# System / Cache files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
